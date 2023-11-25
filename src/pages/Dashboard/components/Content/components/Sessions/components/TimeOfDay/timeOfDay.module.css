@@ -5,6 +5,15 @@
 }
 
 .timeOfDay {
+    
+    margin-bottom: 13px;
     display: flex;
     gap: 10px;
+    
+}
+
+.timeOfDay__value {
+    position: relative;
+    display: block;
+    transform: translateX(24px);
 }
