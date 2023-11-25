@@ -1,0 +1,21 @@
+.aside {
+    padding: 45px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 78px;
+    width: 100%;
+    max-width: 290px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.nav a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}

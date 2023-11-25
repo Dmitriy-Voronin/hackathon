@@ -1,0 +1,25 @@
+.searchForm {
+    display: flex;
+    align-items: center;
+}
+
+.search__input {
+    margin-right: 20px;
+    padding: 6px 20px 6px 42px;
+    background-color: var(--mā-white);
+    border-radius: 25px;
+    border: none;
+    max-width: 214px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.search__input::placeholder {
+    font-family: 'Montserrat';
+    color: var(--periwinkle-blossom);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.28px;
+}
+

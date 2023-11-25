@@ -1,0 +1,47 @@
+.tab {
+  position: relative;
+  color: var(--cold-grey);
+  font-family: 'Roboto';
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+.tab::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+.active {
+  color: var(--skirret-green);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.active::after {
+  background-color: var(--skirret-green);
+}
+
+@media (max-width: 920px) {
+  .tab {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 620px) {
+  .tab {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+}

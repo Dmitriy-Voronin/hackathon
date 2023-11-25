@@ -1,0 +1,19 @@
+.banner {
+    background-color: var(--soft-petals);
+}
+
+.banner__wrap {
+    padding-top: 133px;
+    padding-bottom: 206px;
+    background-image: url('/src/assets/images/banner_bg_img.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.banner__title {
+    color: var(--benthic-black);
+    font-family: 'Montserrat';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: normal;
+}
