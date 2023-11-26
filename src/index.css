@@ -413,7 +413,7 @@ body {
   color: var(--text-color);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: var(--background);
-  height: 100vh;
+  min-height: 100vh;
   transition: background-color .2s ease;
 }
 
