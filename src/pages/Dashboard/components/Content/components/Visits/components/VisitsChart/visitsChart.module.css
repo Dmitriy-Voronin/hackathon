@@ -1,0 +1,17 @@
+.chart__container {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.green_line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.grey_line {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

@@ -17,7 +17,7 @@ export const Icons: TIcons = {
     </svg>,
     'SearchIcon': <svg xmlns="http://www.w3.org/2000/svg" width="11" height="13" viewBox="0 0 11 13" fill="none">
         <circle cx="5" cy="5.62402" r="4.3" stroke="#2B3674" strokeWidth="1.4" />
-        <line x1="10.0101" y1="11.624" x2="8" y2="9.61397" stroke="#2B3674" stroke-width="1.4" strokeLinecap="round" />
+        <line x1="10.0101" y1="11.624" x2="8" y2="9.61397" stroke="#2B3674" strokeWidth="1.4" strokeLinecap="round" />
     </svg>,
     'notifications_none': <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
         <path d="M19.29 14.685L18 13.6617V9.69557C18 7.26036 16.36 5.22176 13.5 4.68236V4.14297C13.5 3.48459 12.83 2.95312 12 2.95312C11.17 2.95312 10.5 3.48459 10.5 4.14297V4.68236C7.62999 5.22176 5.99999 7.25242 5.99999 9.69557V13.6617L4.70999 14.685C4.07999 15.1847 4.51999 16.0414 5.40999 16.0414H18.58C19.48 16.0414 19.92 15.1847 19.29 14.685ZM16 14.4549H7.99999V9.69557C7.99999 7.72836 9.50999 6.12604 12 6.12604C14.49 6.12604 16 7.72836 16 9.69557V14.4549ZM12 18.4211C13.1 18.4211 14 17.7072 14 16.8346H9.99999C9.99999 17.7072 10.89 18.4211 12 18.4211Z" fill="#A3AED0" />
@@ -74,6 +74,13 @@ export const Icons: TIcons = {
                 <rect width="24" height="24" fill="white" />
             </clipPath>
         </defs>
+    </svg>,
+    'arrow_down': <svg xmlns="http://www.w3.org/2000/svg" width="11" height="15" viewBox="0 0 11 15" fill="none">
+        <path d="M5.41727 1.65771L5.41727 13.0401" stroke="#F2383A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M9.96285 9.77295L5.48145 14.2543L1.00006 9.77295" stroke="#F2383A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>,
+    'check': <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="2" width="20" height="20" rx="5" stroke="#666666" stroke-width="1.5" />
+        <path d="M9.5 11.5L11.5 13.5L15.5 9.5" stroke="#666666" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
     </svg>
-
 }
