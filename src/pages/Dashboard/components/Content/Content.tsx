@@ -13,87 +13,87 @@ const tableList = [
         date: '12 Jan 2023',
         city: 'Москва',
         timestamp: '12:20',
-        repeat: false
+        repeat: 'Нет'
     },
     {
-        name: 'Перевод',
+        name: 'Покупка',
         to: 'Yahoo',
         amount: 'Р36,850',
-        status: 'Одобрено',
-        date: '12 Jan 2023',
+        status: 'Обработка',
+        date: '4 Feb 2023',
         city: 'Москва',
-        timestamp: '12:20',
-        repeat: false
+        timestamp: '15:45',
+        repeat: 'Нет'
     },
     {
         name: 'Перевод',
-        to: 'Google',
-        amount: 'Р42,000',
+        to: 'Microsoft',
+        amount: 'Р12,300',
+        status: 'Заблокированна',
+        date: '18 Mar 2023',
+        city: 'Стамбул',
+        timestamp: '15:30',
+        repeat: 'Нет'
+    },
+    {
+        name: 'Покупка',
+        to: 'Amazon',
+        amount: 'Р89,456',
         status: 'Одобрено',
-        date: '12 Jan 2023',
+        date: '27 Apr 2023',
         city: 'Москва',
-        timestamp: '12:20',
-        repeat: false
+        timestamp: '23:00',
+        repeat: 'Нет'
     },
     {
         name: 'Перевод',
-        to: 'Google',
-        amount: 'Р42,000',
-        status: 'Одобрено',
-        date: '12 Jan 2023',
-        city: 'Москва',
-        timestamp: '12:20',
-        repeat: false
+        to: 'Flipkart',
+        amount: 'Р32,800',
+        status: 'Заблокированна',
+        date: '18 May 2023',
+        city: 'Лондон',
+        timestamp: '22:00',
+        repeat: 'Нет'
     },
     {
         name: 'Перевод',
-        to: 'Google',
-        amount: 'Р42,000',
-        status: 'Одобрено',
-        date: '12 Jan 2023',
-        city: 'Москва',
-        timestamp: '12:20',
-        repeat: false
+        to: 'Meta',
+        amount: 'Р12,300',
+        status: 'Заблокированна',
+        date: '21 Jun 2023',
+        city: 'Лондон',
+        timestamp: '22:01',
+        repeat: 'Да'
     },
     {
         name: 'Перевод',
-        to: 'Google',
-        amount: 'Р42,000',
-        status: 'Одобрено',
-        date: '12 Jan 2023',
-        city: 'Москва',
-        timestamp: '12:20',
-        repeat: false
+        to: 'X',
+        amount: 'Р98,270',
+        status: 'Заблокированна',
+        date: '28 Jul 2023',
+        city: 'Лондон',
+        timestamp: '22:01',
+        repeat: 'Да'
+    },
+    {
+        name: 'Покупка',
+        to: 'Youtube',
+        amount: 'Р34,000',
+        status: 'Обработка',
+        date: '22 Aug 2023',
+        city: 'Ростов-на-Дону',
+        timestamp: '14:00',
+        repeat: 'Нет'
     },
     {
         name: 'Перевод',
-        to: 'Google',
-        amount: 'Р42,000',
+        to: 'Figma',
+        amount: 'Р23,500',
         status: 'Одобрено',
-        date: '12 Jan 2023',
-        city: 'Москва',
-        timestamp: '12:20',
-        repeat: false
-    },
-    {
-        name: 'Перевод',
-        to: 'Google',
-        amount: 'Р42,000',
-        status: 'Одобрено',
-        date: '12 Jan 2023',
-        city: 'Москва',
-        timestamp: '12:20',
-        repeat: false
-    },
-    {
-        name: 'Перевод',
-        to: 'Google',
-        amount: 'Р42,000',
-        status: 'Одобрено',
-        date: '12 Jan 2023',
-        city: 'Москва',
-        timestamp: '12:20',
-        repeat: false
+        date: '13 Sep 2023',
+        city: 'Воронеж',
+        timestamp: '15:00',
+        repeat: 'Нет'
     },
    
 ]
@@ -130,7 +130,7 @@ export const Content = () => {
                 <section className={styles.table_wrap}>
                     <table className={styles.table}>
                         <thead className={styles.thead}>
-                            <tr>
+                            <tr className={styles.tr}>
                                 <th className={styles.th}>Имя операции</th>
                                 <th className={styles.th}>Куда</th>
                                 <th className={styles.th}>Сумма</th>
@@ -143,9 +143,9 @@ export const Content = () => {
                         </thead>
                         <tbody>
                             {tableList.map((taibleListitem) => (
-                                <tr>
+                                <tr className={styles.tr}>
                                     {Object.values(taibleListitem).map((item) => (
-                                        <td>{item}</td>
+                                        <td className={styles.td}>{item}</td>
                                     ))}
                                 </tr>
                             ))}
